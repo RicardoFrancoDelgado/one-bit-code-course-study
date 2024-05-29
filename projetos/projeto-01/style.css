@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+/* root elements */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  max-width: 375px;
+}
+
+/* img ajuste */
+.omellete-img {
+  background-size: cover;
+  width: 100%;
+}
+
+/* ajustes da parte de apresentação */
+
+.apresentation-container {
+  margin: 30px 50px;
+}
+
+/* title adjustment */
+.title-page {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+  color: var(--Dark-Charcoal);
+}
+
+/* paragraph adjustment */
+.apresentation-content > p {
+  font-family: 'Outfit', sans-serif;
+  color: var(--Dark-Charcoal);
+
+  margin-bottom: 50px;
+}
+
+/* preparation card adjust */
+.preparation-container {
+  background-color: var(--Rose-White);
+  padding: 20px;
+
+  border-radius: 8px;
+}
+
+.preparation-title {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 15px;
+
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.list-preparation-container {
+  margin: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.preparation-list > p {
+  font-family: 'Outfit', sans-serif;
+
+  margin: 10px;
+}

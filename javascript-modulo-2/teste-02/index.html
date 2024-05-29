@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js"></script>
+    <title>Cadastro de Alunos</title>
+  </head>
+  <body>
+    <h1>Cadastro de alunos</h1>
+    <hr />
+
+    <p>
+      <label for="matricula">Código do Aluno:</label>
+      <input type="text" name="matricula" id="matricula" />
+      <label for="name">Nome:</label>
+      <input type="text" name="name" id="name" />
+      <label for="pacote">Pacote</label>
+      <input type="text" name="pacote" id="pacote" />
+
+      <button onclick="addStudent()">Cadastrar</button>
+    </p>
+
+    <hr />
+
+    <p>
+      <label for="matriculaToRemove">Aluno:</label>
+      <input type="text" name="matriculaToRemove" id="matriculaToRemove" />
+
+      <button onclick="removeStudent">Remover</button>
+    </p>
+
+    <ul id="student-list"></ul>
+  </body>
+</html>
