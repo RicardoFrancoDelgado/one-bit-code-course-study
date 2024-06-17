@@ -16,11 +16,11 @@ function show() {
     const contacts = document.querySelectorAll('#contact-list > li > label')
     console.log(contacts)
 
-    //pegando um único elemento -> NodeList
+    //pegando o primeiro elemento -> NodeList
     const contact1 = document.getElementsByName('contact1')
     console.log(contact1)
 
-    //pegando o primeiro elemento -> NodeList
+    //pegando um único elemento -> NodeList
     const firstContact = document.querySelector('#contact-list > li > label')
     console.log(firstContact)
 }

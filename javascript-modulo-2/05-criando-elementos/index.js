@@ -13,6 +13,7 @@ function addInput() {
   const newInput = document.createElement('input')
 
   // adicionar tipo ao input, adicionar um name ao input
+  // atributos HTML
   newInput.type = 'text'
   newInput.name = 'input'
 
