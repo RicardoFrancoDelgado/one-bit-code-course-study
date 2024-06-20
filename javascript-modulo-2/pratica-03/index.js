@@ -77,7 +77,7 @@ form.addEventListener('submit', function (ev) {
   ev.preventDefault() // método para cancelar o evento padrão do formulário
 
   const usernameInput = document.getElementById('username') // selecionar o nome de desenvolvedor
-  const inputLines = document.querySelectorAll('.inputLines') // selecionar as linhas de tecnologias preenchidas
+  const inputLines = document.querySelectorAll('.inputLines') // selecionar todas as linhas de tecnologias preenchidas
 
   let technologies = [] // array para armazenar as tecnologias e tempo de experiencias de tecnologia
   inputLines.forEach(function (line) {
