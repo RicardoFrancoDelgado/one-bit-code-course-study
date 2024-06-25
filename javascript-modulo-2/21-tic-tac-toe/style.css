@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 6rem 6rem 6rem;
   grid-template-rows: 6rem 6rem 6rem;
-  gap: .5rem;
+  gap: .6rem;
   margin-bottom: 1.5rem;
   max-width: 19rem;
 }
@@ -16,13 +16,14 @@ body {
   background-color: #ddd;
   display: grid;
   place-content: center;
+  cursor: pointer;
   font-size: 5rem;
+}
+
+#gameBoard span.win {
+  background-color: #23a340;
 }
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-#gameBoard span.win {
-  background-color:  #25a340;
 }
