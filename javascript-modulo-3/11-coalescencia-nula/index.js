@@ -24,3 +24,8 @@ console.log({ a, b })
 
 b = a ?? 42
 console.log({ a, b })
+
+let c = null ?? 42 // ignorar os valores que retornam nulo ou falso
+
+console.log({ c })
+
