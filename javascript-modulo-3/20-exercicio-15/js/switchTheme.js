@@ -1,4 +1,4 @@
-import { main, root } from '../index.js'
+import { main, root } from './index.js'
 
 export function switchTheme() {
   document

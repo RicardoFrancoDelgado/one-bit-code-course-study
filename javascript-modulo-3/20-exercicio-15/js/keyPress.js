@@ -1,4 +1,4 @@
-import { input, allowedKeys } from '../index.js'
+import { input, allowedKeys } from './index.js'
 
 function keyUse() {
   document.querySelectorAll('.charKey').forEach(function (charKeyBtn) {

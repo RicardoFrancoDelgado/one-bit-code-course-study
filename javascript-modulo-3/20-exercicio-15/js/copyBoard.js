@@ -1,4 +1,4 @@
-import { resultInput } from '../index.js'
+import { resultInput } from './index.js'
 
 function copyBoard() {
   document
