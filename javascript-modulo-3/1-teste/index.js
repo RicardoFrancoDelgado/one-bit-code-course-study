@@ -45,7 +45,40 @@ const median = (...numbers) => {
   return media(firstNumber, secondNumber)
 }
 
-console.log(`Mediana: ${median(2, 55, 7, 6, 67, 4, 3, 4)}`)
+console.log(
+  `Mediana: ${median(
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    160,
+    160,
+    160,
+    160,
+    160,
+    160,
+    180,
+    180,
+    180,
+    180,
+    200,
+    200,
+    220,
+    240
+  )}`
+)
 console.log(`Mediana: ${median(1, 2, 3, 4, 5)}`)
 
 // moda
@@ -60,4 +93,4 @@ const mode = (...numbers) => {
   return quantities[0][0] // retorna a primeira ocorrencia do numero que mais se repete
 }
 
-console.log(`moda ${mode(1, 2, 3, 4, 4, 4, 4, 4, 2, 2, 44, 2)}`)
+console.log(`Moda: ${mode(1, 2, 3, 4, 4, 4, 4, 4, 2, 2, 44, 2)}`)
