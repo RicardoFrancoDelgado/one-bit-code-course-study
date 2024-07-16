@@ -1,3 +1,5 @@
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+
 module.exports = {
   entry: {
     index: './src/index.js', // por padrão ele utiliza o nome de entrada na saída
@@ -6,8 +8,11 @@ module.exports = {
   module: {
     rules: [{
       test: /\.css$/, 
-      use: ['style-loader', 'css-loader']
+      use: [MiniCssExtractPlugin.loader, 'css-loader']
     }]
-  }
+  },
+  plugins: [
+    new MiniCssExtractPlugin() // instanciação
+  ]
 }
 
