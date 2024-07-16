@@ -2,3 +2,17 @@ body {
   background-color: #232323;
   color: #fefefe;
 }
+
+p{
+  color: red;
+}
+
+#result {
+  color: green;
+}
+
+pre {
+  display: inline-block;
+  background-color: #ddd;
+  color: #232323;
+}
