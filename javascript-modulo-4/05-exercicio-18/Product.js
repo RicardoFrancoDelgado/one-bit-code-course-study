@@ -27,5 +27,5 @@ console.log(tablet) // -> começa com 0 no estoque
 tablet.addToStock(10)
 console.log(tablet) // -> adicionados 10 no estoque
 
-tablet.calculateDiscount(10)
+tablet.calculateDiscount(10) // -> 10% de desconto
 console.log(tablet)
