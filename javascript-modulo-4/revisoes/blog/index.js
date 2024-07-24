@@ -5,7 +5,7 @@ const ricardo = new Author(
   'ricardo@email.com',
   'Frontend Development'
 )
-const post = ricardo.addPost(
+const posts = ricardo.addPost(
   'Sem internet a dois dias',
   'Internet caiu na região de Paciência/RJ por volta de 9h da manhã'
 )
@@ -15,4 +15,4 @@ post.addComment(
   'Muito ruim ficar sem internet por tanto tempo'
 )
 console.log(ricardo)
-console.log(post)
+console.log(posts)
