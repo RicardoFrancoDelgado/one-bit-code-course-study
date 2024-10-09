@@ -20,10 +20,10 @@ class Wallet {
 
   // set para mudarmos a propriedade de username
   set username(newUsername) {
-    if (typeof newUsername === 'string') {
+    if (typeof newUsername === "string") {
       this.#username = newUsername;
     } else {
-      console.log("Username must be of type string")
+      console.log("Username must be of type string");
     }
   }
 
