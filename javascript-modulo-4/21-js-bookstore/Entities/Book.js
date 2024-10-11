@@ -11,6 +11,7 @@ module.exports = class Book extends Product {
     price,
     inStock = 0
   ) {
+    // não referenciamos no this os atributos que ja estão em super e não queremos sobrescrever
     super(`Livro: ${title}`, description, price, inStock);
     this.title = title;
     this.synopsis = synopsis;
