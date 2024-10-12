@@ -1,6 +1,6 @@
 module.exports = class Database {
   #storage = {
-    author: [],
+    authors: [],
     books: [],
     posters: [],
     orders: [],
@@ -13,7 +13,7 @@ module.exports = class Database {
 
   // método para salvar o autor
   saveAuthor(author) {
-    this.#storage.author.push(author);
+    this.#storage.authors.push(author);
   }
 
   // método para encontrar o livro pelo nome
@@ -59,7 +59,7 @@ module.exports = class Database {
     poster?.addToStock(quantity); // adicionar no estoque todo livro que não resultar como undefined
   }
 
-  removeBooksFromStock(posterName, quantity) {
+  removePostersFromStock(posterName, quantity) {
     const poster = this.findPosterByName(posterName);
     poster?.removeToStock(quantity);
   }
