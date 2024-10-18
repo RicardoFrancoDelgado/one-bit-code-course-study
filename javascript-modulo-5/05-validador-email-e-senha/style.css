@@ -101,3 +101,10 @@ button:hover {
 section {
   animation: fadeIn 0.5s ease-out;
 }
+
+.error {
+  border: 1px solid #f64348;
+}
+.success {
+  border: 1px solid #43f67f;
+}
