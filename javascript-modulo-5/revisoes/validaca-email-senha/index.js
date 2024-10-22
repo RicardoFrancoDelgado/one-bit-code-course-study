@@ -24,7 +24,7 @@ function validatePassword(password) {
 function resetForm(input) {
   Object.entries(input).forEach(([key, value]) => {
     value.classList.remove("success", "error");
-    document.querySelector(`#${key}-error`).textContent = "";
+    document.querySelector(`#${key}-error`).innerText = "";
   });
 }
 
